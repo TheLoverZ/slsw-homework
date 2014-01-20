@@ -2,7 +2,7 @@ Number div := Number getSlot("/")
 
 Number / := method(n,
   if (n == 0,
-    "WARNING: cannot divide by zero", 
+    "divided by 0", 
     div(n)
     )
   )
