@@ -7,3 +7,14 @@ smallestItem(List, SmallestValue) :-
   SmallestValue is min(Head, SmallestTail),
   !
 .
+
+/* 输出 */
+/*
+| ?- smallestItem( [5,1,10,2], What ).
+What = 1
+(1 ms) yes
+
+| ?- smallestItem( [5,7,10,2], What ).
+What = 2
+yes
+*/
