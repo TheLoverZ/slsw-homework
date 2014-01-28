@@ -1,3 +1,5 @@
+// 在分母为0的情况下，如何让运算符/返回0？
+
 Number div := Number getSlot("/")
 
 Number / := method(n,
