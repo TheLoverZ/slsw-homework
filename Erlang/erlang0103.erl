@@ -8,11 +8,10 @@ printMsg(success) -> success;
 printMsg({error, Message}) -> io:format("error: " ++ Message ++ "~n").
 
 % 输出
-% 17> c(erlang0103).
+% > c(erlang0103).
 % {ok,erlang0103}
-% 18> erlang0103:printMsg(success).
+% > erlang0103:printMsg(success).
 % success
-% 19> erlang0103:printMsg({error, "404 not found."}).
+% > erlang0103:printMsg({error, "404 not found."}).
 % error: 404 not found.
 % ok
-% 20>

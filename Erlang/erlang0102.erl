@@ -7,7 +7,7 @@ recurCount(10) -> 10;
 recurCount(N) -> recurCount(N + 1).
 
 % 输出
-% 11> c(erlang0102).
+% > c(erlang0102).
 % {ok,erlang0102}
-% 12> erlang0102:recurCount(1).
+% > erlang0102:recurCount(1).
 % 10
