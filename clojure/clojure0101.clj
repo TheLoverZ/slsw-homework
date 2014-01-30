@@ -5,3 +5,9 @@
   "return true if length of string is bigger than n"
   [st, n]
   (> (count st) n))
+
+; #'user/big
+; user=> (big "abcde" 5)
+; false
+; user=> (big "abcde" 4)
+; true
